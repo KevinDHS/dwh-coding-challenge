@@ -1,0 +1,10 @@
+version: "3"
+services:
+  datascience-notebook:
+      image: jupyter/datascience-notebook
+      volumes:
+        - .:r"E:\tes\New folder\dwh-coding-challenge\data"
+      ports:
+        - 8080:8080
+      container_name: datascience-notebook-container
+      
